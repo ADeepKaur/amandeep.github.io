@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aman Kaur Portfolio</title>
+    <link rel="stylesheet" href="./main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  <link rel="icon" href="images/favicon-img.png" type="image/gif" sizes="16x16">
+</head>
+  <body>
+          <nav>
+            <div class="logo"><img src="images/head.gif" alt="logo_gif" ></div>
+            <div class="openMenu"><i class="fa fa-bars"></i></div>
+            <ul class="mainMenu">
+                <li><a href="#landing-page">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#education">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            
+              <li><a href="resume-git.pdf" target="_blank">View Resume</a></li>
+            
+           <div class="closeMenu"><i class="fa fa-times"></i></div>
+            <span class="icons">
+                <a href="https://www.linkedin.com/in/aman-kaur-824124233/"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/ADeepKaur"><i class="fab fa-github"></i></a>
+            </span>
+            </ul>
+
+        </nav>
+
+    <section id="landing-page" class="landing-page">
+        <div class="container">
+          <div class="main-message">
+           
+<h3 class="ml15">
+  <span class="word">Aman</span>
+  <span class="word">Kaur</span>
+</h3>
+
+            <h3>Full stack developer</h3>
+            <p>Html . CSS . JavaScript . Wordpress . Php . Python</p>
+            <div class="intro-btn">
+              <div class="cta">
+                <a href="#about" class="btn">About me</a>
+              </div>
+              <div class="cta">
+                <a href="#contact" class="btn">Get In Touch</a>
+              </div>
+              <div class="cta">
+                <a href="#education" class="btn">Skills</a>
+              </div>
+            </div>
+            <div>
+              <a href="#about" class="scroll-down">
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+    </section>
+
+  <section id="about" class="about" >
+  <div class="container">
+          <div class="about-text-box">
+            <h2>About Me</h2>
+            <p>
+              Exceptionally creative and dependable Entry Level Web Developer with a stellar customer service record and superb work ethic. I am determined, motivated and driven to be successful web developer and utilise latest technologies to develop variety of web applications. In addition to my knowledge base, I actively seek out new technologies and stay up-to-date on industry trends and advancements. This has allowed me to stay ahead of the curve and deliver exceptional work to all of my employers, including those I've worked for on a project basis. I am solution focused, well organised and excellent in working with others to achieve common goals.
+            </p>
+          </div>
+        </div>
+        
+      </section>
+
+      <section id="education" class="education">
+  <div class="container">
+          <div class="title-heading">
+            <h2>MY EDUCATION AND EXPERIENCE</h2>
+            
+          </div>
+          <div class="education-tiers">
+            <div class="tier-item" style="background-color: yellow">
+              <i class="fa fa-user-graduate" aria-hidden="true"></i>
+              <h2>EDUCATION</h2>
+              <p>BACHELOR IN COMPUTER APPLICATIONS-Panjab University (2007-2010)</p>
+              <P>Build your Digital Literacy with coding (2020)-Tafe NSW</P><p>&nbsp;</p>
+            </div>
+            <div class="tier-item" style="background-color:#EDEAE5;" >
+              <i class="fa fa-code" aria-hidden="true"></i>
+              <h2>EXPERIENCE</h2>
+              <p>
+                <h3>SOFTWARE DEVELOPER(2017-2018)</h3>
+              </p>
+              <p>EVAC GUIDE</h2>
+                <p>PHP(Laravel)</p><p>APIs</p><p>GitHub Source control</p>
+            </div>
+            <div class="tier-item" style=" background-color:#f6a50a;">
+              <i class="fa fa-cogs" aria-hidden="true"></i>
+              <h2>SKILLS</h2>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JAVASRIPT</li>
+                <li>WORDPRESS</li>
+                <li>PHP</li>
+                <li>PYTHON</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+       
+      </section>
+      
+      <section id="contact" class="contact">
+        <h2>Contact Info</h2>
+       
+        <div class="container" align="center">
+          <p>
+            <a href="mailto:caur.amanda@gmail.com"
+              ><i class="fas fa-envelope fa-3x" aria-hidden="true"></i>&nbsp; caur.amanda@gmail.com</a
+            >
+          </p>
+          <p>
+            <a href="tel:+61-477899582" target="_blank"
+              ><i class="fa fa-mobile fa-3x" aria-hidden="true"></i>&nbsp; 0477899582</a
+            >
+          </p>
+          <p>
+            <a href="https://www.google.com/maps/place/Revesby+NSW+2212,+Australia/@-33.948205,151.011469,13z/data=!4m5!3m4!1s0x6b12beac4a2d074b:0x5017d681632c840!8m2!3d-33.9452471!4d151.018035?hl=en-GB" target="_blank" 
+              ><i class="fas fa-map-marker-alt fa-3x" aria-hidden="true"></i> &nbsp;Revesby NSW</i></a
+            >
+          </p>
+        </div>
+       
+      </section>
+<section>
+      <footer>
+        <div class="footer-nav" >
+          <a href="#" class="footer-nav-link"><i class="fa fa-home" aria-hidden="true"></i></a>
+          <a href="#about" class="footer-nav-link">About</a>
+          <a href="#education" class="footer-nav-link">Skills</a>
+          <a href="#education" class="footer-nav-link">Education</a>
+          <a href="#contact" class="footer-nav-link">Contact</a>
+        </div>
+        <div class="footer-coded-by">
+          <p>
+           Design: Aman Kaur &copy; 2020
+          </p>
+          <p>With HTML, CSS and JavaScript</p>
+        </div>
+        
+      </footer></section>         
+
+    <script src="./main.js"></script>
+    <script type="text/javascript" src="animate.js"></script>
+    
+
+  </body>
+</html>
